@@ -1,0 +1,114 @@
+/* font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'DotGothic16', sans-serif;
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    font-family: 'Manrope', sans-serif;
+}
+
+.navbar-brand {
+    color: blueviolet;
+}
+
+h1,
+h2,
+h3,
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* home */
+.hola {
+    background: url(./fotos/P1010076.JPG);
+    background-size: cover;
+    min-height: 570px;
+    color: blueviolet;
+}
+
+/* novedades */
+.lista-novedades {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    size: 100px;
+}
+
+.lista-novedades li {
+    margin: 4px 0;
+}
+
+.lista-novedades li a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: chartreuse;
+    transition: all.1s ease-in-out;
+}
+
+.lista-novedades li a:hover {
+    color: deepskyblue;
+    background-color: palegreen;
+}
+
+.lista-novedades li a img {
+    height: 120px;
+    margin-right: 1rem;
+}
+
+
+/* inicio testimonios  */
+.testimonios {
+    background-color: springgreen;
+    width: 500px;
+    padding-bottom: 3rem;
+}
+
+.testimonio {
+    text-align: left;
+    padding: 2rem;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.testimonio p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    background-color: white;
+}
+
+.carousel-indicators {
+    margin: 0px;
+
+}
+
+/* nosotros */
+.staff {
+    background: turquoise;
+    margin-bottom: 3rem;
+}
+
+.card {
+    background: honeydew;
+}
+
+/* visitanos */
+.mapa iframe {
+    width: 100%;
+    aspect-ratio: 1.2;
+}
+
+.scroll_section {
+    scroll-margin-top: 60px;
+}
